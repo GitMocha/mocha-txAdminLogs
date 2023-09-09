@@ -106,7 +106,7 @@ if Shared.txAdminLogger then
         --     action = action,
         --     message = message
         -- })
-        TriggerEvent('qb-log:server:CreateLog', 'mochalogs', 'txAdmin Action Logger', 'red', ('**Source:** %s \n**Action:** %s \n**Message:** %s '):format(GetPlayerName(src), action, message)) 
+        TriggerEvent('qb-log:server:CreateLog', 'WEBHOOKHERE', 'txAdmin Action Logger', 'red', ('**Source:** %s \n**Action:** %s \n**Message:** %s '):format(GetPlayerName(src), action, message)) 
     end)
 
 end
