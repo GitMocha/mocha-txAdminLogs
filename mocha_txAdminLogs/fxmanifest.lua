@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 description 'mocha_txAdminLogs'
-author 'Mocha'
+author 'Mocha (Resource Creator) / Tabarra (txAdmin Source Code)'
 version '1.0.0'
 
 server_scripts { 'server/*.lua' }
